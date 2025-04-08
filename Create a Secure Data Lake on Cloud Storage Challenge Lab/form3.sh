@@ -37,7 +37,7 @@ gcloud dataplex zones create temperature-raw-data \
     --resource-location-type=SINGLE_REGION \
     --display-name="temperature-raw-data"
 
-gcloud dataplex assets create customer-details-dataset \
+gcloud dataplex aspect-types create customer-details-dataset \
     --location=$REGION \
     --lake=public-lake \
     --zone=temperature-raw-data \
